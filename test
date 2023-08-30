@@ -1,0 +1,31 @@
+package main
+
+import "fmt"
+
+//นิยามตัวแปร
+
+func main() {
+	// var number [3]int = [3]int{100, 200, 300}
+	number := []int{100, 200, 300}
+	// size := len(number)
+	// pets := string[]{"ant","cat"}
+
+	//map
+	// country := map[string]string{"TH": "ไทย", "JP": "ญี่ปุ่น"}
+	// country["EN"] = "อังกฤษ"
+	// value, check := country["AB"]
+
+	// fmt.Println(country["EN"])
+	// fmt.Println(number[:2], size)
+
+	// if check {
+	// 	fmt.Println(value)
+	// } else {
+	// 	fmt.Println("error no Data")
+	// }
+
+	for i := 0; i < len(number); i++ {
+		fmt.Println(number[i])
+	}
+
+}
